@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(60px, 1fr));
+}
+
+.square {
+  height: 30vh;
+  width: 30vw;
+  /* border: solid black 1px; */
+}
+
+.peppa {
+  background-image: url("peppa.jpg");
+  background-size: cover;
+}
